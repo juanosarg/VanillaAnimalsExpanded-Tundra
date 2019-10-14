@@ -210,11 +210,11 @@
 			</li>
 			<li>
 				<capacities>
-					<li>Bite</li>
+					<li>Blunt</li>
 				</capacities>
 				<power>12</power>
 				<cooldownTime>2</cooldownTime>
-				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<linkedBodyPartsGroup>HornAttackTool</linkedBodyPartsGroup>
 				<chanceFactor>0.5</chanceFactor>
 			</li>
 			<li>
@@ -229,7 +229,7 @@
 			</li>
 		</tools>
 		<race>
-			<body>QuadrupedAnimalWithHooves</body>
+			<body>AEXP_AntleredQuadruped</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2.1</baseBodySize>
 			<baseHungerRate>0.85</baseHungerRate>
@@ -238,7 +238,7 @@
 			<leatherDef>Leather_Plain</leatherDef>
 			<wildness>0.75</wildness>
 			<gestationPeriodDays>25</gestationPeriodDays>
-			<lifeExpectancy>18</lifeExpectancy>
+			<lifeExpectancy>25</lifeExpectancy>
 			<wildBiomes>
 				<BorealForest>0.4</BorealForest>
 				<Tundra>1</Tundra>
@@ -280,7 +280,7 @@
 		<race>AEXP_Moose</race>
 		<combatPower>110</combatPower>
 		<ecoSystemWeight>1.1</ecoSystemWeight>
-		
+
 		<lifeStages>
 			<li>
 				<label>moose calf</label>
@@ -348,10 +348,10 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
--->
+
 	<!-- ======================= Megawolverine =============================== -->
 
-<!--	<ThingDef ParentName="AnimalThingBase">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>AEXP_MegaWolverine</defName>
 		<label>megawolverine</label>
 		<description>A giant, genetically-engineered predator with massive paws to rip apart prey. Thick fur allows it to survive the coldest of climates, whilst it strength allows it to hunt even the largest of mammals for food.</description>
@@ -498,14 +498,14 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
--->
+
 	<!-- ======================= Porcupine =============================== -->
 
 
-<!--	<ThingDef ParentName="AnimalThingBase">
-		<defName>Raccoon</defName>
-		<label>raccoon</label>
-		<description>A large rodent with a coat of quills to protect against predators.</description>
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>AEXP_Porcupine</defName>
+		<label>porcupine</label>
+		<description>Porcupines are large rodents with a coat of sharp spines, or quills, that protect against predators. These quills are modified hairs coated with thick plates of keratin, and embedded in the skin musculature. Quills are released by contact or may drop out when the porcupine shakes its body, and new quills grow to replace lost ones. Porcupines were long believed to have the ability to project their quills to a considerable distance at an enemy, but this has since been proven to be untrue.\n\nThey have the second longest lifespans of any rodents, only behind naked mole rats.</description>
 		<statBases>
 			<MoveSpeed>3.8</MoveSpeed>
 			<MarketValue>120</MarketValue>
@@ -553,12 +553,13 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPaws</body>
-			<baseBodySize>0.3</baseBodySize>
+			<canBePredatorPrey>false</canBePredatorPrey>
+			<baseBodySize>0.25</baseBodySize>
 			<baseHealthScale>0.4</baseHealthScale>
-			<baseHungerRate>0.32</baseHungerRate>
+			<baseHungerRate>0.25</baseHungerRate>
 			<foodType>OmnivoreRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<wildness>0.75</wildness>
+			<wildness>0.7</wildness>
 			<mateMtbHours>8</mateMtbHours>
 			<gestationPeriodDays>14</gestationPeriodDays>
 			<litterSizeCurve>
@@ -574,7 +575,7 @@
 				<Tundra>0.6</Tundra>
 				<ColdBog>0.1</ColdBog>
 			</wildBiomes>
-			<lifeExpectancy>8</lifeExpectancy>
+			<lifeExpectancy>25</lifeExpectancy>
 			<lifeStageAges>
 				<li>
 					<def>AnimalBaby</def>
@@ -603,45 +604,43 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>Raccoon</defName>
-		<label>raccoon</label>
-		<race>Raccoon</race>
+		<defName>AEXP_Porcupine</defName>
+		<label>porcupine</label>
+		<race>AEXP_Porcupine</race>
 		<combatPower>35</combatPower>
 		<ecoSystemWeight>0.30</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Raccoon/Raccoon</texPath>
-					<color>(174,172,174)</color>
-					<drawSize>1.1</drawSize>
-					<shaderType>CutoutComplex</shaderType>
+					<texPath>Things/Pawn/Animal/Porcupine/Porcupine</texPath>					
+					<drawSize>1.1</drawSize>					
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+					<texPath>Things/Pawn/Animal/Porcupine/Dessicated_Porcupine</texPath>
 					<drawSize>1.1</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Raccoon/Raccoon</texPath>
-					<color>(174,172,174)</color>
+					<texPath>Things/Pawn/Animal/Porcupine/Porcupine</texPath>					
+
 					<drawSize>1.3</drawSize>
-					<shaderType>CutoutComplex</shaderType>
+
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+					<texPath>Things/Pawn/Animal/Porcupine/Dessicated_Porcupine</texPath>
 					<drawSize>1.3</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawn/Animal/Raccoon/Raccoon</texPath>
-					<color>(174,172,174)</color>
+					<texPath>Things/Pawn/Animal/Porcupine/Porcupine</texPath>					
+
 					<drawSize>1.6</drawSize>
-					<shaderType>CutoutComplex</shaderType>
+
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Raccoon/Dessicated_Raccoon</texPath>
+					<texPath>Things/Pawn/Animal/Porcupine/Dessicated_Porcupine</texPath>
 					<drawSize>1.6</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
