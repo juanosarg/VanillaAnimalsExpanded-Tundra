@@ -171,13 +171,13 @@
 
 	<!-- ======================= Moose =============================== -->
 
-<!--	<ThingDef ParentName="AnimalThingBase">
+	<ThingDef ParentName="AnimalThingBase">
 		<defName>AEXP_Moose</defName>
 		<label>moose</label>
-		<description>A large member of the deer family, well-adapted to life in cold climates. Can easily be identified due to the size of the antlers and long, thin legs. Cannot carry packs, but domesticated moose can be milked.</description>
+		<description>The largest and heaviest member of the deer family, well-adapted to life in cold climates. Can easily be identified due to the size of the antlers and long, thin legs. Cannot carry packs, but domesticated moose can be milked. Unlike most other deer species, moose do not form herds and are solitary animals. Although generally slow-moving and sedentary, moose can become aggressive and move quickly if angered or startled.</description>
 		<statBases>
 			<MoveSpeed>5</MoveSpeed>
-			<MarketValue>300</MarketValue>
+			<MarketValue>450</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
 		</statBases>
 		<comps>
@@ -194,7 +194,7 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>10</power>
+				<power>15</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
 			</li>
@@ -204,7 +204,7 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>10</power>
+				<power>15</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
 			</li>
@@ -212,7 +212,7 @@
 				<capacities>
 					<li>Bite</li>
 				</capacities>
-				<power>10</power>
+				<power>12</power>
 				<cooldownTime>2</cooldownTime>
 				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
 				<chanceFactor>0.5</chanceFactor>
@@ -280,10 +280,7 @@
 		<race>AEXP_Moose</race>
 		<combatPower>110</combatPower>
 		<ecoSystemWeight>1.1</ecoSystemWeight>
-		<wildGroupSize>
-			<min>3</min>
-			<max>9</max>
-		</wildGroupSize>
+		
 		<lifeStages>
 			<li>
 				<label>moose calf</label>
