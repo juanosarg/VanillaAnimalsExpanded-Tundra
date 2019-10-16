@@ -431,10 +431,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>3.0</minAge>
-					<soundWounded>Pawn_Thrumbo_Pain</soundWounded>
-					<soundDeath>Pawn_Thrumbo_Death</soundDeath>
-					<soundCall>Pawn_Thrumbo_Call</soundCall>
-					<soundAngry>Pawn_Thrumbo_Angry</soundAngry>
+					<soundWounded>AEXP_Pawn_MegaWolverine_Wounded</soundWounded>
+					<soundDeath>AEXP_Pawn_MegaWolverine_Death</soundDeath>
+					<soundCall>AEXP_Pawn_MegaWolverine_Call</soundCall>
+					<soundAngry>AEXP_Pawn_MegaWolverine_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
@@ -588,10 +588,10 @@
 				<li>
 					<def>AnimalAdult</def>
 					<minAge>0.4</minAge>
-					<soundWounded>Pawn_Boomrat_Wounded</soundWounded>
-					<soundDeath>Pawn_Boomrat_Death</soundDeath>
-					<soundCall>Pawn_Boomrat_Call</soundCall>
-					<soundAngry>Pawn_Boomrat_Angry</soundAngry>
+					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
+					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
+					<soundCall>Pawn_Alphabeaver_Call</soundCall>
+					<soundAngry>Pawn_Alphabeaver_Angry</soundAngry>
 				</li>
 			</lifeStageAges>
 			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
@@ -645,6 +645,6 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-	</PawnKindDef>-->
+	</PawnKindDef>
 
 </Defs>
