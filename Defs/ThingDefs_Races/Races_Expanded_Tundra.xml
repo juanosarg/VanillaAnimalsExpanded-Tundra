@@ -405,7 +405,7 @@
 			<baseHungerRate>2.0</baseHungerRate>
 			<baseBodySize>3.8</baseBodySize>
 			<baseHealthScale>3.6</baseHealthScale>
-			<foodType>VegetarianRoughAnimal</foodType>
+			<foodType>CarnivoreAnimal</foodType>
 			<leatherDef>Leather_Heavy</leatherDef>
 			<gestationPeriodDays>55</gestationPeriodDays>
 			<wildness>0.97</wildness>
@@ -505,7 +505,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AEXP_Porcupine</defName>
 		<label>porcupine</label>
-		<description>Porcupines are large rodents with a coat of sharp spines, or quills, that protect against predators. These quills are modified hairs coated with thick plates of keratin, and embedded in the skin musculature. Quills are released by contact or may drop out when the porcupine shakes its body, and new quills grow to replace lost ones. Porcupines were long believed to have the ability to project their quills to a considerable distance at an enemy, but this has since been proven to be untrue.\n\nThey have the second longest lifespans of any rodents, only behind naked mole rats.</description>
+		<description>A large rodent with a coat of sharp quills that protect it against predators.</description>
 		<statBases>
 			<MoveSpeed>3.8</MoveSpeed>
 			<MarketValue>120</MarketValue>
@@ -557,7 +557,7 @@
 			<baseBodySize>0.25</baseBodySize>
 			<baseHealthScale>0.4</baseHealthScale>
 			<baseHungerRate>0.25</baseHungerRate>
-			<foodType>OmnivoreRoughAnimal</foodType>
+			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
 			<wildness>0.7</wildness>
 			<mateMtbHours>8</mateMtbHours>
