@@ -237,6 +237,7 @@
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
 			<wildness>0.75</wildness>
+			<trainability>Simple</trainability>
 			<gestationPeriodDays>25</gestationPeriodDays>
 			<lifeExpectancy>25</lifeExpectancy>
 			<wildBiomes>
@@ -406,6 +407,7 @@
 			<baseBodySize>3.8</baseBodySize>
 			<baseHealthScale>3.6</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
+			<predator>true</predator>
 			<leatherDef>Leather_Heavy</leatherDef>
 			<gestationPeriodDays>55</gestationPeriodDays>
 			<wildness>0.97</wildness>
@@ -415,9 +417,9 @@
 			<manhunterOnTameFailChance>0.25</manhunterOnTameFailChance>
 			<manhunterOnDamageChance>0.2</manhunterOnDamageChance>
 			<wildBiomes>
-				<BorealForest>0.2</BorealForest>
-				<Tundra>0.6</Tundra>
-				<ColdBog>0.1</ColdBog>
+				<BorealForest>0.1</BorealForest>
+				<Tundra>0.3</Tundra>
+				<ColdBog>0.05</ColdBog>
 			</wildBiomes>
 			<lifeStageAges>
 				<li>
@@ -452,7 +454,7 @@
 		<label>megawolverine</label>
 		<race>AEXP_MegaWolverine</race>
 		<combatPower>380</combatPower>
-		<ecoSystemWeight>2.0</ecoSystemWeight>
+		<ecoSystemWeight>3.0</ecoSystemWeight>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -505,7 +507,7 @@
 	<ThingDef ParentName="AnimalThingBase">
 		<defName>AEXP_Porcupine</defName>
 		<label>porcupine</label>
-		<description>Porcupines are large rodents with a coat of sharp spines, or quills, that protect against predators. These quills are modified hairs coated with thick plates of keratin, and embedded in the skin musculature. Quills are released by contact or may drop out when the porcupine shakes its body, and new quills grow to replace lost ones. Porcupines were long believed to have the ability to project their quills to a considerable distance at an enemy, but this has since been proven to be untrue.\n\nThey have the second longest lifespans of any rodents, only behind naked mole rats.</description>
+		<description>A large rodent with a coat of sharp quills that protect it against predators.</description>
 		<statBases>
 			<MoveSpeed>3.8</MoveSpeed>
 			<MarketValue>120</MarketValue>
@@ -559,6 +561,7 @@
 			<baseHungerRate>0.25</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
+			<trainability>Simple</trainability>
 			<wildness>0.7</wildness>
 			<mateMtbHours>8</mateMtbHours>
 			<gestationPeriodDays>14</gestationPeriodDays>
