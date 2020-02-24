@@ -19,6 +19,10 @@
     <stuffProps>
 		<color>(94,76,66)</color>
 	  <commonality>0.02</commonality>
+	  <statFactors>
+      
+        <Beauty>1.75</Beauty>
+      </statFactors>
 	</stuffProps>
 </ThingDef>
 
