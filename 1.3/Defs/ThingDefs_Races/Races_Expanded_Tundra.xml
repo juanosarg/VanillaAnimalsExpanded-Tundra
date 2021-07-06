@@ -11,6 +11,7 @@
 			<MarketValue>285</MarketValue>
 			<ComfyTemperatureMin>-65</ComfyTemperatureMin>
 			<ComfyTemperatureMax>20</ComfyTemperatureMax>
+			<FilthRate>16</FilthRate>
 		</statBases>
 		<tools>
 			<li>
@@ -70,12 +71,13 @@
 			<body>QuadrupedAnimalWithHooves</body>
 			<baseBodySize>2.3</baseBodySize>
 			<baseHealthScale>1.95</baseHealthScale>
-			<baseHungerRate>0.65</baseHungerRate>
+			<baseHungerRate>0.535</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Heavy</leatherDef>
-			<gestationPeriodDays>25</gestationPeriodDays>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
 			<wildness>0.7</wildness>
-			<trainability>Simple</trainability>
+			<roamMtbDays>2</roamMtbDays>
+			<trainability>None</trainability>
 			<packAnimal>true</packAnimal>
 			<lifeExpectancy>18</lifeExpectancy>
 			<lifeStageAges>
@@ -89,7 +91,7 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.5</minAge>
+					<minAge>0.3333</minAge>
 					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
 					<soundDeath>Pawn_Muffalo_Death</soundDeath>
 					<soundCall>Pawn_Muffalo_Call</soundCall>
@@ -179,6 +181,7 @@
 			<MoveSpeed>5</MoveSpeed>
 			<MarketValue>450</MarketValue>
 			<ComfyTemperatureMin>-50</ComfyTemperatureMin>
+			 <FilthRate>16</FilthRate>
 		</statBases>
 		<comps>
 			<li Class="CompProperties_Milkable">
@@ -232,13 +235,14 @@
 			<body>AEXP_AntleredQuadruped</body>
 			<herdAnimal>true</herdAnimal>
 			<baseBodySize>2.1</baseBodySize>
-			<baseHungerRate>0.85</baseHungerRate>
+			<baseHungerRate>0.535</baseHungerRate>
 			<baseHealthScale>1.9</baseHealthScale>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Plain</leatherDef>
 			<wildness>0.75</wildness>
-			<trainability>Simple</trainability>
-			<gestationPeriodDays>25</gestationPeriodDays>
+			<roamMtbDays>2</roamMtbDays>
+			<trainability>None</trainability>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
 			<lifeExpectancy>25</lifeExpectancy>
 			<wildBiomes>
 				<BorealForest>0.4</BorealForest>
@@ -257,7 +261,7 @@
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.6</minAge>
+					<minAge>0.3333</minAge>
 					<soundWounded>Pawn_Elk_Wounded</soundWounded>
 					<soundDeath>Pawn_Elk_Death</soundDeath>
 					<soundCall>Pawn_Elk_Call</soundCall>
@@ -360,6 +364,7 @@
 			<MoveSpeed>4.8</MoveSpeed>
 			<MarketValue>850</MarketValue>
 			<ComfyTemperatureMin>-85</ComfyTemperatureMin>
+			<FilthRate>4</FilthRate>
 		</statBases>
 		<tools>
 			<li>
@@ -403,13 +408,13 @@
 		</tools>
 		<race>
 			<body>QuadrupedAnimalWithPawsAndTail</body>
-			<baseHungerRate>1.0</baseHungerRate>
+			<baseHungerRate>0.75</baseHungerRate>
 			<baseBodySize>3.8</baseBodySize>
 			<baseHealthScale>3.6</baseHealthScale>
 			<foodType>CarnivoreAnimal</foodType>
 			<predator>true</predator>
 			<leatherDef>Leather_Heavy</leatherDef>
-			<gestationPeriodDays>55</gestationPeriodDays>
+			<gestationPeriodDays>20</gestationPeriodDays>
 			<wildness>0.97</wildness>
 			<trainability>Advanced</trainability>
 			<nuzzleMtbHours>120</nuzzleMtbHours>
@@ -558,13 +563,13 @@
 			<canBePredatorPrey>false</canBePredatorPrey>
 			<baseBodySize>0.25</baseBodySize>
 			<baseHealthScale>0.4</baseHealthScale>
-			<baseHungerRate>0.25</baseHungerRate>
+			<baseHungerRate>0.1</baseHungerRate>
 			<foodType>VegetarianRoughAnimal</foodType>
 			<leatherDef>Leather_Light</leatherDef>
-			<trainability>Simple</trainability>
+			<trainability>None</trainability>
 			<wildness>0.7</wildness>
 			<mateMtbHours>8</mateMtbHours>
-			<gestationPeriodDays>14</gestationPeriodDays>
+			<gestationPeriodDays>5.661</gestationPeriodDays>
 			<litterSizeCurve>
 				<points>
 					<li>(0.5, 0)</li>
@@ -586,11 +591,11 @@
 				</li>
 				<li>
 					<def>AnimalJuvenile</def>
-					<minAge>0.15</minAge>
+					<minAge>0.1</minAge>
 				</li>
 				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.4</minAge>
+					<minAge>0.2222</minAge>
 					<soundWounded>Pawn_Alphabeaver_Wounded</soundWounded>
 					<soundDeath>Pawn_Alphabeaver_Death</soundDeath>
 					<soundCall>Pawn_Alphabeaver_Call</soundCall>
